@@ -1,6 +1,6 @@
 # VisionTransformer
 
-Open 'main.py' from the IDE
+Open [main.py](https://github.com/nadeny/VisionTransformer/blob/main/main.py) from the IDE
 
 ## Training:
 1. Set batch number, workers, into suitable number. 
