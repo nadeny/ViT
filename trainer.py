@@ -47,7 +47,7 @@ class Trainer:
     def train(self, train_iter, val_iter, epochs, length, is_log):
         train_len, val_len = length
         if is_log:
-            wandb.init(project="DHC5003 Final Project", entity="nadenny")
+            wandb.init(project="Image Classification", entity="na_deny")
             wandb.config = {'Dataset': 'ImageNet'}
 
         for epoch in range(epochs):
